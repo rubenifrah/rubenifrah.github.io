@@ -2,26 +2,34 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>M2 IASD Student</a> @ Dauphine-PSL | <a href='#'>Ingénieur Polytechnicien</a> (X21).
+subtitle: <a href='https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program'>Ingénieur Polytechnicien</a> (X21) | <a href='https://www.masteriasd.eu/en/'>M2 IASD Student</a> @ Dauphine - ENS Ulm - Mines Paris - PSL
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # False looks more professional/academic
+  image_circular: false 
   address: >
     <p>Paris, France</p>
 
-news: true  # Includes a list of news items
-selected_papers: false # Set to true once you have papers
-social: true  # Includes social icons at the bottom
+news: true 
+selected_papers: false 
+social: true 
 ---
 
-I am a Master's student in **Artificial Intelligence, Systems, and Data (IASD)** at **Dauphine-PSL**, and an alumnus of **École Polytechnique** (X21).
+I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine - ENS Ulm - Mines Paris**), and an alumnus of **École Polytechnique** (X21). 
 
-My research interests lie at the intersection of **Deep Reinforcement Learning (RL)** and **Physical Sciences** (AI for Science). I am particularly interested in:
-* **Physics-Informed RL:** Integrating conservation laws (Hamiltonians, Lagrangians) into learning agents to improve sample efficiency.
-* **Safe & Offline RL:** Controlling complex dynamics (e.g., Tokamaks, Robotics) where real-world exploration is costly or dangerous.
+My academic background is built on a dual foundation: the mathematical and physical rigor from my engineering training at Polytechnique (specializing in **Mechanics & Physics**), and the theoretical depth of modern Machine Learning from the IASD Master (Optimization, Probabilistic Models, Deep Learning).
 
-I am currently looking for a **PhD position** starting Fall 2025 in Switzerland or France.
+### Research Interests
 
-Earlier, I worked as a Research Intern at **MBDA** (stochastic optimization) and at the **University of Valencia**.
+My research interest focuses on **Deep Reinforcement Learning (RL)** and **Computer Vision**. I am driven by the challenge of building autonomous agents that can perceive complex, high-dimensional environments and make robust decisions.
+
+I am currently working on projects at the intersection of **Visual Representation Learning** and **Control**, exploring how agents can learn efficient policies directly from pixels. My specific interests include:
+
+* **Deep Reinforcement Learning:** Investigation of sample efficiency, exploration strategies, and model-based RL.
+* **Computer Vision:** Learning useful representations for downstream control tasks (World Models, latent dynamics).
+* **AI for Science:** Applying these general RL & CV advances to physical systems, with a focus on **Physics-Informed Learning** and **Sim-to-Real** transfer for robotics and complex dynamics.
+
+I am actively looking for a **PhD position** starting **Fall 2025** in Switzerland or France.
+
+Previously, I conducted research on stochastic filtering at **MBDA** and statistical modeling at the **University of Valencia**.
