@@ -13,7 +13,7 @@
   contents:
     - title: M.Sc. in AI, Systems, and Data (IASD)
       institution: Université Paris Dauphine - PSL (co-accredited ENS Ulm, Mines Paris)
-      year: 2024 - Present
+      year: 2025 - Present
       description:
         - Highly selective research-oriented Master's program (Top 1% in France).
         - <b>Key Courses:</b> Reinforcement Learning (O. Cappé), Foundations of ML (F. Bach), Optimization (C. Royer), Deep Learning for Vision, LLMs.
@@ -25,7 +25,7 @@
       description:
         - France's leading engineering school. Multidisciplinary scientific training.
         - <b>Majors:</b> Mechanics & Physics (Year 2), Applied Mathematics & Data Science (Year 3).
-        - <b>Projects:</b> Quantum Physics, Fluid Mechanics, Stochastic Calculus.
+        - <b>took courses in:</b> Quantum Physics, Fluid Mechanics, Stochastic Calculus, Economics
     
     - title: CPGE (PCSI - PSI*)
       institution: Lycée Saint-Louis, Paris
@@ -37,6 +37,22 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Data science intern
+      institution: Clevaligner, Paris
+      year: May 2025 - Aug 2025
+      description:
+        - Worked in a startup on AI applied to medical field (dental correction)
+        - Was charged of assessing and implementing SOTA models in point-cloud teeth segmentation (transformer based PointNet)
+        - assisted AI-engineers designing and constructing point-cloud pipelines.
+  
+    - title: Research Assistant (Statistics)
+      institution: University of Valencia, Spain
+      year: April 2024 - July 2024
+      description:
+        - Worked on ecological inference estimators and statistical modeling.
+        - Developed an extended model using different norms for estimator efficiency.
+        
     - title: Research Intern (Stochastic Optimization)
       institution: MBDA, Plessis-Robinson
       year: Apr 2023 - Aug 2023
@@ -45,40 +61,44 @@
         - Developed advanced stochastic models and simulations using MATLAB.
         - Collaborated with defense industry experts on signal processing challenges.
 
-    - title: Research Assistant (Statistics)
-      institution: University of Valencia, Spain
-      year: June 2022 - Aug 2022
-      description:
-        - Worked on ecological inference estimators and statistical modeling.
-        - Developed an extended model using different norms for estimator efficiency.
-        - Contributed to the writing of a scientific paper.
 
     - title: Officer Cadet / Platoon Leader
       institution: French Army (33e RIMa), Martinique
-      year: 2021 - 2022
+      year: Dec 2021 - Apr 2022
       description:
-        - Served as a Platoon Leader for 30 soldiers during overseas deployment.
+        - Served as a Platoon Leader for 30 soldiers during overseas deployment as part of my military training at École Polytechnique.
         - Managed logistics, organized training exercises, and developed crisis management skills.
         - Trained at the Saint-Cyr Coëtquidan Military Academy (4 months).
 
-- title: Technical Skills
+- title: Skills
   type: nested_list
   contents:
-    - title: AI & Machine Learning
+    - title: Deep Learning & RL
       items: 
-        - Deep RL (PPO, DQN, SAC), Computer Vision (CNNs, ViTs).
-        - Physics-Informed Neural Networks (PINNs), Hamiltonian NN.
-        - PyTorch, Gymnasium, TensorFlow, Scikit-learn.
-    - title: Mathematics & Physics
+        - <b>Reinforcement Learning:</b> Temporal-difference learning, Deep RL (PPO, DQN, SAC), Multi-Armed Bandits (UCB, Regret Bounds), Monte Carlo Tree Search (MCTS).
+        - <b>Computer Vision:</b> Vision Transformers (ViTs), CNNs, Self-Supervised Learning, Generative Models (Diffusion, VAEs, GANs).
+        - <b>NLP:</b> Transformers (Attention Mechanisms), LLM Fine-Tuning.
+        - <b>Stack:</b> PyTorch, Gymnasium, Hugging Face.
+    
+    - title: Mathematics & Theory
       items:
-        - Stochastic Calculus, Optimization, MCMC Methods.
-        - Hamiltonian/Lagrangian Mechanics, Fluid Dynamics (Navier-Stokes).
+        - <b>Statistical Learning:</b> Kernel Methods (RKHS), Generalization Bounds, Dimensionality Reduction (Manifold Learning).
+        - <b>Optimization:</b> Stochastic Gradient Descent (Variance Reduction), Convex & Non-Convex Optimization.
+        - <b>Probability:</b> Stochastic Calculus, High-Dimensional Statistics, Stochastic Processes
+
     - title: Programming & Tools
       items:
-        - Python, MATLAB, C++, R, SQL, Git, LaTeX.
+        - <b>Languages:</b> Python, MATLAB, R, SQL.
+        - <b>Dev Tools:</b> Git, Docker, LaTeX.
+
+    - title: Soft Skills & Languages
+      items:
+        - <b>Leadership:</b> team management (led a platoon of 30 soldiers), Decision making under pressure.
+        - <b>Research:</b> Scientific writing, oral communication, cross-disciplinary background (Physics/ML/economics).
+        - <b>Languages:</b> French (Native), English (Advanced C1), Spanish (Intermediate B1).
 
 - title: Interests
   type: list
   contents:
     - <u>Sports:</u> Basketball (10 years), Skydiving, Calisthenics.
-    - <u>Hobbies:</u> Chess, Architecture, Hard Rock.
+    - <u>Hobbies:</u> Chess, Architecture, 
