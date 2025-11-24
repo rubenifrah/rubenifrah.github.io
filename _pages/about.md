@@ -26,7 +26,11 @@ news: true
 selected_papers: false 
 social: true 
 ---
-
+<div style="display: flex; gap: 20px;">
+  <img src="/assets/img/logo_x.png" width="60">
+  <img src="/assets/img/logo_dauphine.png" width="60">
+  <img src="/assets/img/logo_ens.png" width="60">
+</div>
 I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine - ENS Ulm - Mines Paris**), and an alumnus of **École Polytechnique** (X21). 
 
 My academic background is built on a dual foundation: the mathematical and physical rigor from my engineering training at Polytechnique (specializing in **Mechanics & Physics**), and the theoretical depth of modern Machine Learning from the IASD Master (Optimization, Probabilistic Models, Deep Learning).
