@@ -1,12 +1,12 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Ruben Ifrah
+    - name: Activity
+      value: AI researcher student
     - name: Education
       value: École Polytechnique (X21), Dauphine-PSL
-    - name: Languages
-      value: French (Native), English (Advanced C1), Spanish (Intermediate B1)
 
 - title: Education
   type: time_table
