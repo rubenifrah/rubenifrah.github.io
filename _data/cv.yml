@@ -4,7 +4,7 @@
     - name: Name
       value: Ruben Ifrah
     - name: Activity
-      value: AI researcher student
+      value: AI Research Student
     - name: Education
       value: École Polytechnique (X21), Dauphine-PSL
 
@@ -13,92 +13,90 @@
   contents:
     - title: M.Sc. in AI, Systems, and Data (IASD)
       institution: Université Paris Dauphine - PSL (co-accredited ENS Ulm, Mines Paris)
-      year: 2025 - Present
+      year: 2024 - Present
       description:
-        - Highly selective research-oriented Master's program (Top 1% in France).
-        - <b>Key Courses:</b> Reinforcement Learning (O. Cappé), Foundations of ML (F. Bach), Optimization (C. Royer), Deep Learning for Vision, LLMs.
-        - <b>Focus:</b> Deep Reinforcement Learning, Physics-Informed ML, Computer Vision.
+        - "Highly selective research-oriented Master's program (Top 1% in France)."
+        - "<b>Key Courses:</b> Reinforcement Learning (O. Cappé), Foundations of ML (F. Bach), Optimization (C. Royer), Deep Learning for Vision, LLMs."
+        - "<b>Focus:</b> Deep Reinforcement Learning, Physics-Informed ML, Computer Vision."
     
     - title: Ingénieur Polytechnicien (M.Sc. Eng.)
       institution: École Polytechnique (X), Palaiseau
       year: 2021 - 2025
       description:
-        - France's leading engineering school. Multidisciplinary scientific training.
-        - <b>Majors:</b> Mechanics & Physics (Year 2), Applied Mathematics & Data Science (Year 3).
-        - <b>took courses in:</b> Quantum Physics, Fluid Mechanics, Stochastic Calculus, Economics
+        - "France's leading engineering school. Multidisciplinary scientific training."
+        - "<b>Majors:</b> Mechanics & Physics (Year 2), Applied Mathematics & Data Science (Year 3)."
+        - "<b>Took courses in:</b> Quantum Physics, Fluid Mechanics, Stochastic Calculus, Economics."
     
     - title: CPGE (PCSI - PSI*)
       institution: Lycée Saint-Louis, Paris
       year: 2019 - 2021
       description:
-        - Intensive two-year preparation in Mathematics, Physics, and Engineering Sciences.
-        - Ranked top of the class (2020-2021).
+        - "Intensive two-year preparation in Mathematics, Physics, and Engineering Sciences."
+        - "Ranked top of the class (2020-2021)."
 
 - title: Experience
   type: time_table
   contents:
-
-    - title: Data science intern
+    - title: Data Scientist Intern
       institution: Clevaligner, Paris
       year: May 2025 - Aug 2025
       description:
-        - Worked in a startup on AI applied to medical field (dental correction)
-        - Was charged of assessing and implementing SOTA models in point-cloud teeth segmentation (transformer based PointNet)
-        - assisted AI-engineers designing and constructing point-cloud pipelines.
+        - "Worked in a startup on AI applied to the medical field (dental correction)."
+        - "Responsible for assessing and implementing SOTA models in point-cloud teeth segmentation (Transformer-based PointNet)."
+        - "Assisted AI engineers in designing and constructing point-cloud pipelines."
   
     - title: Research Assistant (Statistics)
       institution: University of Valencia, Spain
       year: April 2024 - July 2024
       description:
-        - Worked on ecological inference estimators and statistical modeling.
-        - Developed an extended model using different norms for estimator efficiency.
+        - "Worked on ecological inference estimators and statistical modeling."
+        - "Developed an extended model using different norms for estimator efficiency."
         
     - title: Research Intern (Stochastic Optimization)
       institution: MBDA, Plessis-Robinson
       year: Apr 2023 - Aug 2023
       description:
-        - Conducted applied research to optimize anti-jamming filters on stochastic signals.
-        - Developed advanced stochastic models and simulations using MATLAB.
-        - Collaborated with defense industry experts on signal processing challenges.
-
+        - "Conducted applied research to optimize anti-jamming filters on stochastic signals."
+        - "Developed advanced stochastic models and simulations using MATLAB."
+        - "Collaborated with defense industry experts on signal processing challenges."
 
     - title: Officer Cadet / Platoon Leader
       institution: French Army (33e RIMa), Martinique
       year: Dec 2021 - Apr 2022
       description:
-        - Served as a Platoon Leader for 30 soldiers during overseas deployment as part of my military training at École Polytechnique.
-        - Managed logistics, organized training exercises, and developed crisis management skills.
-        - Trained at the Saint-Cyr Coëtquidan Military Academy (4 months).
+        - "Served as a Platoon Leader for 30 soldiers during overseas deployment as part of military training at École Polytechnique."
+        - "Managed logistics, organized training exercises, and developed crisis management skills."
+        - "Trained at the Saint-Cyr Coëtquidan Military Academy (4 months)."
 
 - title: Skills
   type: nested_list
   contents:
     - title: Deep Learning & RL
       items: 
-        - <b>Reinforcement Learning:</b> Temporal-difference learning, Deep RL (PPO, DQN, SAC), Multi-Armed Bandits (UCB, Regret Bounds), Monte Carlo Tree Search (MCTS).
-        - <b>Computer Vision:</b> Vision Transformers (ViTs), CNNs, Self-Supervised Learning, Generative Models (Diffusion, VAEs, GANs).
-        - <b>NLP:</b> Transformers (Attention Mechanisms), LLM Fine-Tuning.
-        - <b>Stack:</b> PyTorch, Gymnasium, Hugging Face.
+        - "<b>Reinforcement Learning:</b> Temporal-difference learning, Deep RL (PPO, DQN, SAC), Multi-Armed Bandits (UCB, Regret Bounds), Monte Carlo Tree Search (MCTS)."
+        - "<b>Computer Vision:</b> Vision Transformers (ViTs), CNNs, Self-Supervised Learning, Generative Models (Diffusion, VAEs, GANs)."
+        - "<b>NLP:</b> Transformers (Attention Mechanisms), LLM Fine-Tuning."
+        - "<b>Stack:</b> PyTorch, Gymnasium, Hugging Face."
     
     - title: Mathematics & Theory
       items:
-        - <b>Statistical Learning:</b> Kernel Methods (RKHS), Generalization Bounds, Dimensionality Reduction (Manifold Learning).
-        - <b>Optimization:</b> Stochastic Gradient Descent (Variance Reduction), Convex & Non-Convex Optimization.
-        - <b>Probability:</b> Stochastic Calculus, High-Dimensional Statistics, Stochastic Processes
+        - "<b>Statistical Learning:</b> Kernel Methods (RKHS), Generalization Bounds, Dimensionality Reduction (Manifold Learning)."
+        - "<b>Optimization:</b> Stochastic Gradient Descent (Variance Reduction), Convex & Non-Convex Optimization."
+        - "<b>Probability:</b> Stochastic Calculus, High-Dimensional Statistics, Stochastic Processes."
 
     - title: Programming & Tools
       items:
-        - <b>Languages:</b> Python, MATLAB, R, SQL.
-        - <b>Dev Tools:</b> Git, Docker, LaTeX.
+        - "<b>Languages:</b> Python, MATLAB, R, SQL."
+        - "<b>Dev Tools:</b> Git, Docker, LaTeX."
 
     - title: Soft Skills & Languages
       items:
-        - <b>Leadership:</b> team management (led a platoon of 30 soldiers), Decision making under pressure.
-        - <b>Research:</b> Scientific writing, oral communication, cross-disciplinary background (Physics/ML/economics).
-        - <b>Languages:</b> French (Native), English (Advanced C1), Spanish (Intermediate B1).
+        - "<b>Leadership:</b> Team management (led a platoon of 30 soldiers), Decision making under pressure."
+        - "<b>Research:</b> Scientific writing, Oral communication, Cross-disciplinary background (Physics/ML/Economics)."
+        - "<b>Languages:</b> French (Native), English (Advanced C1), Spanish (Intermediate B1)."
 
 - title: Interests
   type: list
   contents:
-    - <u>Sports:</u> Basketball (10 years), Skydiving, Calisthenics.
-    - <u>Hobbies:</u> Chess, Architecture, 
+    - "<u>Sports:</u> Basketball (10 years), Skydiving, Calisthenics."
+    - "<u>Hobbies:</u> Chess, Architecture."
