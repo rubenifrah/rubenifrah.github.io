@@ -26,8 +26,8 @@ news: true
 selected_papers: false 
 social: true 
 ---
-<div style="display: flex; gap: 20px;">
-  <img src="/assets/img/logo_x.png" width="60">
+<div style="display: flex; gap: 40px;">
+  <img src="/assets/img/logo_x.png" width="80">
   <img src="/assets/img/logo_dauphine.png" width="95">
   <img src="/assets/img/logo_ens.png" width="282">
 </div>
