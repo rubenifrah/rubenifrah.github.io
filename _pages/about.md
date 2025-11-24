@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program'>Ingénieur Polytechnicien</a> (X21) | <a href='https://www.masteriasd.eu/en/'>M2 IASD Student</a> @ Dauphine - ENS Ulm - Mines Paris - PSL
+subtitle: <a href='https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program'>Ingénieur Polytechnicien</a> (X21) | <a href='https://www.masteriasd.eu/en/'>M2 IASD</a> @ Dauphine - ENS Ulm - Mines Paris - PSL
 
 profile:
   align: right
