@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-coursework",
+  },{id: "nav-coursework",
           title: "Coursework",
           description: "Detailed curriculum of the M2 IASD (Paris Dauphine - PSL).",
           section: "Navigation",
