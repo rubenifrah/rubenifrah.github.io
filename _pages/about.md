@@ -10,10 +10,16 @@ profile:
   image_circular: false
   address: >
     <p>Paris, France</p>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 15px;">
-      <img src="/assets/img/logo_x.png" style="max-width: 50px; height: auto;" title="École Polytechnique">
-      <img src="/assets/img/logo_dauphine.png" style="max-width: 50px; height: auto;" title="PSL">
-      <img src="/assets/img/logo_ens.png" style="max-width: 50px; height: auto;" title="ENS">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 15px;">
+      <a href="https://www.polytechnique.edu/" target="_blank">
+        <img src="https://rubenifrah.github.io/assets/img/logo_x.png" style="width: 45px; height: auto; opacity: 0.9;" title="École Polytechnique" alt="X">
+      </a>
+      <a href="https://psl.eu/" target="_blank">
+        <img src="https://rubenifrah.github.io/assets/img/logo_dauphine.png" style="width: 45px; height: auto; opacity: 0.9;" title="Dauphine PSL" alt="PSL">
+      </a>
+      <a href="https://www.ens.psl.eu/" target="_blank">
+        <img src="https://rubenifrah.github.io/assets/img/logo_ens.png" style="width: 45px; height: auto; opacity: 0.9;" title="ENS Ulm" alt="ENS">
+      </a>
     </div>
 
 news: true 
