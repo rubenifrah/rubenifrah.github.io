@@ -7,9 +7,14 @@ subtitle: <a href='https://programmes.polytechnique.edu/en/ingenieur-polytechnic
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false 
+  image_circular: false
   address: >
     <p>Paris, France</p>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 15px;">
+      <img src="/assets/img/logo_x.png" style="max-width: 50px; height: auto;" title="École Polytechnique">
+      <img src="/assets/img/logo_dauphine.png" style="max-width: 50px; height: auto;" title="PSL">
+      <img src="/assets/img/logo_ens.png" style="max-width: 50px; height: auto;" title="ENS">
+    </div>
 
 news: true 
 selected_papers: false 
