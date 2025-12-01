@@ -1,0 +1,226 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[margin=1.2cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{paracol} % For the two-column layout
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome5} % For icons
+\usepackage{titlesec}
+\usepackage{lmodern}
+
+% --- Colors ---
+\definecolor{darkblue}{RGB}{0, 70, 140} % Adjust to match the example
+\definecolor{graytext}{RGB}{80, 80, 80}
+
+% --- Font Setup ---
+\renewcommand{\familydefault}{\sfdefault} % Sans-serif font
+
+% --- Hyperlinks ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\large\bfseries\color{darkblue}} % Format
+  {} % Label
+  {0em} % Sep
+  {} % Before code
+  [\titlerule] % After code
+
+\titleformat{\subsection}
+  {\bfseries\color{black}}
+  {}
+  {0em}
+  {}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{
+    \textbf{#1} \hfill \textit{#2} \\
+    \textit{#3} \hfill #4 \\
+}
+
+\newcommand{\resitem}[1]{\item \small #1}
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+    {\Huge \textbf{Ruben IFRAH}} \\ [0.2cm]
+    {\Large M.Sc. Student in AI (IASD) -- École Polytechnique \& Dauphine-PSL} \\ [0.2cm]
+    
+    \faEnvelope \ \href{mailto:ruben.ifrah@polytechnique.edu}{ruben.ifrah@polytechnique.edu} \quad
+    \faPhone \ +33 6 59 62 78 66 \quad
+    \faMapMarker \ Paris / Sceaux, France \\
+    % \faLinkedin \ \href{LINKEDIN_URL}{linkedin.com/in/ruben-ifrah} % <TO COMPLETE>
+    % \faGithub \ \href{GITHUB_URL}{github.com/ruben-ifrah} % <TO COMPLETE>
+\end{center}
+
+\vspace{0.5cm}
+
+% --- Short Bio ---
+\noindent
+\small
+I am an \textbf{Ingénieur Polytechnicien} (X21) currently pursuing the \textbf{M2 IASD} (AI, Systems, Data) at Dauphine-PSL. With a dual background in \textbf{Physics/Mechanics} and \textbf{Applied Mathematics}, I am seeking a \textbf{PhD position} at the intersection of \textbf{Reinforcement Learning} and \textbf{Physical Sciences} (AI for Science).
+
+\vspace{0.5cm}
+
+% --- Main Content ---
+\columnratio{0.35} % Width of the left column (35%)
+\setlength{\columnsep}{1cm}
+
+\begin{paracol}{2}
+
+    % ---------------- LEFT COLUMN ----------------
+    
+    % --- Education ---
+    \section*{Education}
+    
+    \subsection*{Dauphine - PSL}
+    \textit{M.Sc. IASD (AI, Systems, Data)} \\
+    \textsl{2024 -- Present} \\
+    Paris, France
+    
+    \vspace{0.2cm}
+    
+    \subsection*{École Polytechnique}
+    \textit{Ingénieur Polytechnicien (M.Sc.)} \\
+    \textsl{2021 -- 2025} \\
+    Palaiseau, France \\
+    \footnotesize Major in Applied Mathematics \& Economics. Strong background in Quantum Physics \& Mechanics. \\
+    \textbf{GPA: 3.7/4.0}
+    
+    \vspace{0.2cm}
+    
+    \subsection*{Lycée Saint-Louis}
+    \textit{CPGE PCSI-PSI*} \\
+    \textsl{2019 -- 2021} \\
+    Paris, France \\
+    \footnotesize Top of the Class (2020-2021). Intensive training in Math \& Physics.
+
+    \vspace{0.4cm}
+    
+    % --- Expertise / Skills ---
+    \section*{Expertise}
+    
+    \subsection*{Languages \& Tools}
+    Python (PyTorch, NumPy, Pandas), C++, Java, MATLAB, R, SQL, Git.
+    
+    \subsection*{Skills}
+    Deep Reinforcement Learning, Machine Learning, Stochastic Processes, Optimization, Physics-Informed ML, ODEs/PDEs.
+    
+    \subsection*{Languages}
+    \textbf{French:} Native \\
+    \textbf{English:} Advanced (C1) \\
+    \textbf{Spanish:} Working knowledge (B1)
+
+    \vspace{0.4cm}
+
+    % --- Coursework ---
+    \section*{Coursework}
+    
+    \subsection*{AI \& Theory}
+    \footnotesize
+    Reinforcement Learning (O. Cappé) \\
+    Foundations of ML (F. Bach) \\
+    Large Language Models (A. Allauzen) \\
+    Optimization for ML (C. Royer) \\
+    Computer Vision (T. Walter) \\
+    Bayesian Machine Learning \\
+    Monte Carlo Tree Search \\
+    Geometric Deep Learning
+    
+    \vspace{0.2cm}
+    
+    \subsection*{Physics \& Math}
+    \footnotesize
+    Quantum Physics \\
+    Fluid & Solid Mechanics \\
+    Stochastic Calculus \\
+    Time Series Analysis \\
+    Econometrics
+
+    \vspace{0.4cm}
+    
+    % --- Interests ---
+    \section*{Interests}
+    \footnotesize
+    \textbf{Sports:} Basketball (10 yrs), Skydiving, Calisthenics. \\
+    \textbf{Hobbies:} Chess, Hard Rock, Architecture.
+
+    \switchcolumn
+    
+    % ---------------- RIGHT COLUMN ----------------
+    
+    % --- Objective (Optional, can enable if needed) ---
+    % \section*{Objective}
+    % Looking for a PhD position in Reinforcement Learning applied to Physics (Fusion, Robotics, Science) starting Fall 2025.
+    
+    % --- Research Experience ---
+    \section*{Experience}
+    \vspace{0.01cm}
+    \entry{MBDA}{Apr. 2024 -- Aug. 2024}{Applied Research Intern (Optimization)}{Plessis-Robinson, France}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{Conducted applied research to optimize anti-jamming filters on stochastic signals.}
+        \resitem{Developed advanced stochastic models and simulations using MATLAB.}
+        \resitem{Collaborated with defense industry experts on signal processing challenges.}
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    
+    \entry{University of Valencia}{Summer 2023}{Research Assistant (Stats \& Economics)}{Valencia, Spain}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{Worked in coordination with an applied mathematics professor.}
+        \resitem{Developed an extended model of ecological inference estimators using different norms.}
+        \resitem{Contributed to the writing of a scientific article on estimator efficiency.}
+    \end{itemize}
+
+    \vspace{0.3cm}
+    
+    \entry{French Army (Saint-Cyr)}{2021 -- 2023}{Officer Cadet / Platoon Leader}{Martinique \& Coëtquidan}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{\textbf{Platoon Leader (May 2023 - Aug 2023):} Led a platoon of 30 experienced soldiers in Martinique. Organized training exercises and managed logistics.}
+        \resitem{\textbf{Military Academy (Dec 2021 - Mar 2022):} Intensive officer training at Saint-Cyr Coëtquidan. Developed leadership, rigor, and team management skills.}
+    \end{itemize}
+
+    \vspace{0.4cm}
+
+    % --- Projects ---
+    \section*{Projects}
+    
+    % <TO COMPLETE> - Example structure provided below
+    \entry{Deep Reinforcement Learning Implementation}{2024}{M2 IASD Project}{Paris, France}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{Implemented PPO and DQN algorithms from scratch to solve control tasks.}
+        \resitem{Analyzed sample efficiency and convergence properties.}
+        \resitem{\textbf{Tech Stack:} Python, PyTorch, Gymnasium.}
+        \resitem{\textit{<TO COMPLETE: Add specific details about your recent RL implementation>}}
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \entry{<TO COMPLETE: Project Title>}{<Year>}{<Context>}{<Location>}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{<TO COMPLETE: Description of the project>}
+        \resitem{<TO COMPLETE: Key results or algorithms used>}
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    
+    \entry{<TO COMPLETE: Project Title>}{<Year>}{<Context>}{<Location>}
+    \begin{itemize}[leftmargin=*, noitemsep]
+        \resitem{<TO COMPLETE: Description of the project>}
+    \end{itemize}
+
+    \vspace{0.4cm}
+
+
+\end{paracol}
+
+\end{document}
