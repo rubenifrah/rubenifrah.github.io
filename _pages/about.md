@@ -28,20 +28,24 @@ news: true
 selected_papers: false 
 social: true 
 ---
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; margin-bottom: 60px;">
   <img src="/assets/img/logo_x.png" width="80">
   <img src="/assets/img/logo_dauphine.png" width="95">
   <img src="/assets/img/logo_ens.png" width="282">
 </div>
-I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine - ENS Ulm - Mines Paris**), and an alumnus of **École Polytechnique** (X21). 
+<div style="height: 15px;"></div>
 
-My academic background is built on a dual foundation: the mathematical and physical rigor from my engineering training at Polytechnique (specializing in **Mechanics & Physics**), and the theoretical depth of modern Machine Learning from the IASD Master (Optimization, Probabilistic Models, Deep Learning).
+<div style="text-align: justify;" markdown="1">
+
+I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine - ENS Ulm - Mines Paris**), and an alumnus of **École Polytechnique** (X21).
+
+My academic background is built on a dual foundation: the mathematical and physical rigor from my engineering training at Polytechnique (specializing in Applied Maths and Statistics), and the theoretical depth of modern Machine Learning from the IASD Master (Theoretical Foundations of Deep Learning, Probabilistic Models, convex and non-convex optimization).
 
 ### Research Interests
 
-My research interest focuses on **Deep Reinforcement Learning (RL)** and **Computer Vision**. I am driven by the challenge of building autonomous agents that can perceive complex, high-dimensional environments and make robust decisions.
+My research interest focuses mostly on **Deep Reinforcement Learning (RL)** and **Computer Vision**. I am driven by the challenge of building autonomous agents that can perceive complex, high-dimensional environments and make robust decisions.
 
-I am currently working on projects at the intersection of **Visual Representation Learning** and **Control**, exploring how agents can learn efficient policies directly from pixels. My specific interests include:
+My specific interests include:
 
 * **Deep Reinforcement Learning:** Investigation of sample efficiency, exploration strategies, and model-based RL.
 * **Computer Vision:** Learning useful representations for downstream control tasks (World Models, latent dynamics).
@@ -50,3 +54,5 @@ I am currently working on projects at the intersection of **Visual Representatio
 I am actively looking for a **PhD position** starting **Fall 2025** in Switzerland or France.
 
 Previously, I conducted research on stochastic filtering at **MBDA** and statistical modeling at the **University of Valencia**.
+
+</div>
