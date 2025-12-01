@@ -12,12 +12,12 @@
   type: time_table
   contents:
     - title: M.Sc. in AI, Systems, and Data (IASD)
-      institution: Université Paris Dauphine - PSL (co-accredited ENS Ulm, Mines Paris)
-      year: 2024 - Present
+      institution: Université Paris Dauphine - PSL (co-accredited ENS Ulm, Mines Paris), Paris
+      year: 2025 - Present
       description:
         - "Highly selective research-oriented Master's program (Top 1% in France)."
         - "<b>Key Courses:</b> Reinforcement Learning (O. Cappé), Foundations of ML (F. Bach), Optimization (C. Royer), Deep Learning for Vision, LLMs."
-        - "<b>Focus:</b> Deep Reinforcement Learning, Physics-Informed ML, Computer Vision."
+        - "<b>Main Interest:</b> Reinforcement Learning, Geometric Deep Learning, Computer Vision."
     
     - title: Ingénieur Polytechnicien (M.Sc. Eng.)
       institution: École Polytechnique (X), Palaiseau
@@ -54,7 +54,7 @@
         
     - title: Research Intern (Stochastic Optimization)
       institution: MBDA, Plessis-Robinson
-      year: Apr 2023 - Aug 2023
+      year: May 2023 - Aug 2023
       description:
         - "Conducted applied research to optimize anti-jamming filters on stochastic signals."
         - "Developed advanced stochastic models and simulations using MATLAB."

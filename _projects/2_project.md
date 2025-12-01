@@ -1,81 +1,80 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Spotify Recommender System
+description: A personalized music taste modeling pipeline using XGBoost and Spotify API.
+img: /assets/projects/spotify/PCA_2D.png
 importance: 2
-category: work
+category: personal projects
+github: https://github.com/rubenifrah/spotify-recommender
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A complete, modular, production‑grade pipeline that learns **your personal musical taste** using a large Kaggle Spotify dataset and your own liked songs exported from Spotify.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project trains a classifier (XGBoost) to predict the probability that you will like a new song based on audio features, genre embeddings, and historical preferences. It also produces visualizations, PCA embeddings, feature importance plots, balanced datasets, and a fully reproducible recommendation pipeline.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/spotify/features_distribution.png" title="Feature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/spotify/correlation_matrix.png" title="Correlation Matrix" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Feature distribution of liked vs non-liked songs. Right: Correlation matrix of audio features.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Features
+
+*   **Personalization**: The learned decision boundary reflects *my* musical preferences, not the crowd’s.
+*   **Discovery**: The model identifies songs I am likely to love **but have never heard**, enabling genuine exploration.
+*   **Interpretability**: The modeling pipeline reveals whether my taste is driven by acoustic properties (valence, tempo, energy) or cultural/contextual factors (genre, popularity, release year).
+
+## Methodology
+
+### Data Engineering & Custom Balancing
+Two sources are merged: a Kaggle dataset with tens of thousands of tracks and my personal liked songs (~1899 tracks).
+A binary target is created (`liked = 1` if track_id ∈ my liked songs, `0` otherwise).
+
+To handle the severe class imbalance (~1,900 liked vs >150,000 not-liked), I implemented a custom balancing strategy:
+*   **Oversampling**: Synthetic “liked” examples are created by finding non‑liked songs by frequently liked artists and selecting acoustically similar tracks.
+*   **Undersampling**: The majority class is randomly reduced to produce a **2:1 ratio** of not‑liked to liked.
+
+### Feature Engineering
+Spotify’s ultra‑granular `track_genre` field is condensed into **10 macrogenres** (pop, rock, electronic, etc.) to improve generalization and interpretability.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/projects/spotify/feature_importance.png" title="Feature Importance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    XGBoost Feature Importance: Contextual factors like popularity and release year play a major role alongside audio features.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Modeling & Results
 
-{% raw %}
+I evaluated multiple models (XGBoost, MLP, Random Forest) and selected **XGBoost** for its robustness and interpretability.
+After hyperparameter tuning (GridSearchCV with 5-fold CV), the model achieved a **Weighted F1-score of 0.93**.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+*   **Precision (Liked)**: 0.89
+*   **Recall (Liked)**: 0.84
+
+## Visualizations
+
+The PCA projections reveal that liked songs cluster in two major regions (energetic/upbeat and calm/atmospheric), while non-liked songs are widely dispersed.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/projects/spotify/PCA_2D.png" title="PCA 2D" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/projects/spotify/PCA_by_genre.png" title="PCA by Genre" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
 
-{% endraw %}
+## Tech Stack
+*   **Languages**: Python
+*   **Libraries**: Pandas, Scikit-learn, XGBoost, Spotify API
+*   **Tools**: Git, Makefile, Unit Tests

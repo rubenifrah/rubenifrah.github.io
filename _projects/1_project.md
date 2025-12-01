@@ -4,7 +4,8 @@ title: Deep RL F1 Racing
 description: Autonomous F1 racing agent using PPO and DQN
 img: assets/img/f1_env.png
 importance: 1
-category: work
+category: personal projects
+github: https://github.com/rubenifrah/deep-rl
 related_publications: false
 ---
 
