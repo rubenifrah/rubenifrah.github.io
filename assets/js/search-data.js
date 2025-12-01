@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/coursework/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
