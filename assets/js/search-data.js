@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-coursework",
           title: "Coursework",
-          description: "Detailed curriculum of the M2 IASD (Paris Dauphine - PSL).",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/coursework/";
