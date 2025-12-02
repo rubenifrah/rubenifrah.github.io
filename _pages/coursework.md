@@ -6,7 +6,8 @@ nav: true
 nav_order: 2
 ---
 
-My Master's program **IASD** (AI, Systems, Data) @ **Dauphine-PSL** | **ENS Paris** is structured around a rigorous core of mathematical foundations followed by specialized research-oriented courses. Below is the breakdown of the curriculum.
+My Master's program **IASD** (AI, Systems, Data) @ **Dauphine-PSL** & **ENS Paris** is structured around a rigorous core of mathematical foundations followed by specialized research-oriented courses. Below is the breakdown of the curriculum.
+<hr>
 
 ## Semester 1: Foundations 
 

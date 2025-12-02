@@ -5,6 +5,7 @@ layout: page
 
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
+  {% if collection and collection.size > 0 %}
     <!-- Reading -->
     <h2>Reading</h2>
     <ul>

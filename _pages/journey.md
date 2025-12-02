@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Journey
+title: Polytechnique, a human journey
+nav_title: Journey
 permalink: /journey/
-description: Polytechnique, a human journey through the rigors of education and the challenges of leadership
+description: 
 nav: true
 nav_order: 4
 ---
