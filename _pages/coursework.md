@@ -2,12 +2,11 @@
 layout: page
 title: Coursework
 permalink: /coursework/
-description: Detailed curriculum of the M2 IASD (Paris Dauphine - PSL).
 nav: true
 nav_order: 2
 ---
 
-My Master's program at **Dauphine-PSL** is structured around a rigorous core of mathematical foundations followed by specialized research-oriented courses. Below is the breakdown of the curriculum.
+My Master's program **IASD** (AI, Systems, Data) @ **Dauphine-PSL** | **ENS Paris** is structured around a rigorous core of mathematical foundations followed by specialized research-oriented courses. Below is the breakdown of the curriculum.
 
 ## Semester 1: Foundations 
 
