@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-bookshelf",
-          title: "Bookshelf",
-          description: "",
+        },{id: "nav-journey",
+          title: "Journey",
+          description: "Polytechnique, a human journey through the rigors of education and the challenges of leadership",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/journey/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -36,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
           },
         },{id: "post-a-post-with-plotly-js",
         
