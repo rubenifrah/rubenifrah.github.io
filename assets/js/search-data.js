@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -393,11 +400,21 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-learning-theory-from-first-principles",
+          title: 'Learning Theory from First Principles',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/learning_theory_bach/";
+            },},{id: "books-probabilistic-machine-learning-an-introduction",
+          title: 'Probabilistic Machine Learning: An Introduction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/probabilistic_ml_murphy/";
+            },},{id: "books-reinforcement-learning-an-introduction",
+          title: 'Reinforcement Learning: An Introduction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rl_sutton_barto/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
