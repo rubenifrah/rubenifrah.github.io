@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-journey",
-          title: "Journey",
-          description: "Polytechnique, a human journey through the rigors of education and the challenges of leadership",
+        },{id: "nav-polytechnique-a-human-journey",
+          title: "Polytechnique, a human journey",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/journey/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -407,7 +407,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-learning-theory-from-first-principles",
+      },{id: "books-algorithms-for-reinforcement-learning",
+          title: 'Algorithms for Reinforcement Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/algorithms_rl_szepesvari/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning_goodfellow/";
+            },},{id: "books-learning-theory-from-first-principles",
           title: 'Learning Theory from First Principles',
           description: "",
           section: "Books",handler: () => {
