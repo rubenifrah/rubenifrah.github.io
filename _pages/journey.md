@@ -146,12 +146,12 @@ nav_order: 4
 
 <br>
 
-<h2>2024-Present: The Pivot to Artificial Intelligence</h2>
+<h2>2024-Present: a converging path</h2>
 
 <p style="text-align: justify;">
-    With a solid scientific foundation and a matured character, I chose to focus my energy on the defining technology of our time. I joined the highly selective <strong>M2 IASD (AI, Systems, Data)</strong> at Dauphine-PSL (co-accredited by ENS-Ulm).
+    With a solid scientific foundation and a matured character, I chose to focus my energy on the defining technology of our time. I joined the highly selective <strong>M2 IASD (AI, Systems, Data)</strong> at Dauphine-PSL (co-accredited by ENS-Ulm), a program renowned for its theoretical depth and research orientation.
 </p>
 
 <p style="text-align: justify;">
-    This is where my journey converges. The rigor of my prep classes helps me navigate complex proofs in <strong>Optimization</strong> (Francis Bach, Clément Royer); my multidisciplinary background allows me to grasp the systemic implications of <strong>Deep Reinforcement Learning</strong> and <strong>Computer Vision</strong>. I am now fully dedicated to research, driven by the same curiosity that started this journey: understanding how the world works, and building tools to shape it.
+    This master's program represents the convergence of my academic and personal journey. The mathematical rigor I cultivated during my preparatory classes now serves as the bedrock for understanding complex theoretical proofs. My multidisciplinary background allows me to bridge the gap between theoretical models and their practical implications in <strong>Deep Reinforcement Learning</strong> and <strong>Computer Vision</strong> such as diffusing models or physics-informed models.
 </p>
