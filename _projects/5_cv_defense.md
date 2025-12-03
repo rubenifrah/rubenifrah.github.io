@@ -6,6 +6,7 @@ img: assets/projects/academic/project3_pic.png
 importance: 5
 category: academic projects
 github: https://github.com/rubenifrah/Computer-vision-as-a-defense
+tags: [Computer Vision, deep-learning]
 ---
 
 This project investigates the vulnerability of computer vision models to **adversarial attacks** and explores defense strategies. Adversarial examples are inputs designed to cause the model to make a mistake, often imperceptible to humans.

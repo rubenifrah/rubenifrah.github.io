@@ -6,6 +6,7 @@ img: assets/projects/academic/project2_pic.png
 importance: 4
 category: academic projects
 github: https://github.com/rubenifrah/MINST-generative-via-Variational-autoencoders
+tags: [Variational Models, deep-learning, Computer Vision]
 ---
 
 This project implements a **Variational Autoencoder (VAE)** to generate handwritten digits similar to the MNIST dataset. VAEs are a powerful class of generative models that learn a continuous latent representation of the data.

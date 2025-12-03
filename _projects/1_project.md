@@ -7,6 +7,7 @@ importance: 1
 category: personal projects
 github: https://github.com/rubenifrah/deep-rl
 related_publications: false
+tags: [RL, deep-learning]
 ---
 
 This project involves developing and training a Deep Reinforcement Learning agent to autonomously drive an F1 car in a custom Gym environment.
