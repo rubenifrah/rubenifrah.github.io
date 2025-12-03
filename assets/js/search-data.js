@@ -453,6 +453,21 @@ ninja.data = [{
           description: "A personalized music taste modeling pipeline using XGBoost and Spotify API.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-bayesian-probabilistic-matrix-factorization",
+          title: 'Bayesian Probabilistic Matrix Factorization',
+          description: "A study on Probabilistic Matrix Factorization for recommender systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_matrix_factorisation/";
+            },},{id: "projects-mnist-generative-via-vae",
+          title: 'MNIST Generative via VAE',
+          description: "Generating handwritten digits using Variational Autoencoders.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_mnist_vae/";
+            },},{id: "projects-computer-vision-as-a-defense",
+          title: 'Computer Vision as a Defense',
+          description: "Exploring adversarial attacks and defense mechanisms in computer vision.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_cv_defense/";
             },},{
         id: 'social-cv',
         title: 'CV',
