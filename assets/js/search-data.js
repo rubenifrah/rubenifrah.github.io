@@ -494,7 +494,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/ruben-ifrah", "_blank");
+          window.open("https://www.linkedin.com/in/ruben-ifrah-245496253", "_blank");
         },
       },{
       id: 'light-theme',
