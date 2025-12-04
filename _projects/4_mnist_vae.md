@@ -5,7 +5,7 @@ description: Generating handwritten digits using Variational Autoencoders.
 img: assets/projects/academic/project2_pic.png
 importance: 4
 category: academic projects
-github: https://github.com/rubenifrah/MINST-generative-via-Variational-autoencoders
+github: https://github.com/rubenifrah/MINST-via-VAE-GANs
 tags: [Variational Models, deep-learning, Computer Vision]
 ---
 
