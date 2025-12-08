@@ -412,6 +412,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/algorithms_rl_szepesvari/";
+            },},{id: "books-data-driven-science-and-engineering-machine-learning-dynamical-systems-and-control",
+          title: 'Data-driven Science and Engineering: Machine Learning, Dynamical Systems, and Control',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/data_driven_brunton/";
             },},{id: "books-deep-learning",
           title: 'Deep Learning',
           description: "",
