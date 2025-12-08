@@ -159,99 +159,60 @@ layout: default
 </div>
 
 <style>
-      figure {
-        float: none;
-        width: auto;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-
-      }
-      figure  > img {
-
-           vertical-align: top;
-           display: block;
-           margin-right: 0px;
-           margin-left: 0px;
-           padding: 0px;
-
-      }
-      figure figcaption {
-
-        display: block;
-        caption-side: bottom;
-        text-align: center;
-      }
-
-      @media screen and (min-width: 600px)  {
-
-        .empty-review{
-          float: left;
-          display: block; /* in-line block; */
-          margin: 0px 0px 0px 0px;  /* adjust as needed */
-          padding: 0px 0px 0px 20px;
-         /* top right bottom left */
-          }
-
-         .empty-review-caption {
-                  caption-side: left;
-                  text-align: left;
-
-
-                  }
-
-          .empty-review-cover {
-              width:250px;
-              vertical-align: top;
-              padding-right: 40px;
-              }
-
-          figure {
-
-                float: right;
-                display: in-line block; /* in-line block; */
-                margin: 0px 0px 0px 0px;  /* adjust as needed */
-                padding: 0px 0px 0px 20px;
-               /* top right bottom left */
-              }
-
-          figure img {
-                  width:300px;
-                  vertical-align: top;
-
-                }
-
-          figure figcaption {
-                  caption-side: bottom;
-                  text-align: left;
-
-                  }
-
-          .mobile-break { display: none; }
-
-  /* =Blockquote
-  -------------------------------------------------------------- */
-  blockquote {
-
-      position: relative;
-      marign: 0px;
-      display: table;
-
+  article {
+    text-align: justify;
   }
-  blockquote:before, blockquote:after {
 
-   /* properties to format the block quotes /*
-
+  figure {
+    float: none;
+    width: auto;
+    display: block;
+    margin: 0 auto 20px auto;
   }
-  blockquote:before {
-      top: 0;
-      left: 0;
 
-
+  figure > img {
+    vertical-align: top;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  blockquote:after {
-      top: 0;
-      right: 0;
 
+  figure figcaption {
+    display: block;
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  @media screen and (min-width: 800px) {
+    figure {
+      float: right;
+      margin: 0 0 20px 30px;
+      max-width: 300px;
+    }
+
+    figure img {
+      width: 100%;
+    }
+
+    figure figcaption {
+      text-align: center;
+    }
+    
+    .empty-review {
+      float: right;
+      margin: 0 0 20px 30px;
+    }
+  }
+
+  /* Clearfix for floated elements */
+  article::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 </style>
