@@ -103,53 +103,60 @@ layout: default
 
   <article>
     {% if content == '' %}
-      <figure class="empty-review">
-        {% if page.cover %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em>
-          </figcaption>
-        {% elsif page.olid %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
-          </figcaption>
-        {% elsif page.isbn %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
-          </figcaption>
-        {% endif %}
-      </figure>
-      {% assign status = page.status | upcase %}
-      <div class="clearfix">
-        <h4>{{ status }}</h4>
+      <div class="book-container">
+        <div class="book-content">
+          {% assign status = page.status | upcase %}
+          <div class="clearfix">
+            <h4>{{ status }}</h4>
+          </div>
+        </div>
+        <figure class="empty-review">
+          {% if page.cover %}
+            <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+            <figcaption class="empty-review-caption">
+              Cover of <em>{{ page.title }}</em>
+            </figcaption>
+          {% elsif page.olid %}
+            <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+            <figcaption class="empty-review-caption">
+              Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
+            </figcaption>
+          {% elsif page.isbn %}
+            <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+            <figcaption class="empty-review-caption">
+              Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
+            </figcaption>
+          {% endif %}
+        </figure>
       </div>
     {% else %}
-      <figure>
-        {% if page.cover %}
-          <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em>
-          </figcaption>
-        {% elsif page.olid %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
-          </figcaption>
-        {% elsif page.isbn %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
-          </figcaption>
-        {% endif %}
-      </figure>
-      <br class="mobile-break" clear="right">
-      <h4>
-        {% if page.start %} Start Date: {{ page.start | date: '%-d %B %Y' }}. {% endif %}
-        {% if page.end %} End Date: {{ page.end | date: '%-d %B %Y' }}. {% endif %}
-      </h4>
-      {{ content }}
+      <div class="book-container">
+        <div class="book-content">
+          <h4>
+            {% if page.start %} Start Date: {{ page.start | date: '%-d %B %Y' }}. {% endif %}
+            {% if page.end %} End Date: {{ page.end | date: '%-d %B %Y' }}. {% endif %}
+          </h4>
+          {{ content }}
+        </div>
+        <figure>
+          {% if page.cover %}
+            <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+            <figcaption>
+              Cover of <em>{{ page.title }}</em>
+            </figcaption>
+          {% elsif page.olid %}
+            <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+            <figcaption>
+              Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
+            </figcaption>
+          {% elsif page.isbn %}
+            <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+            <figcaption>
+              Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
+            </figcaption>
+          {% endif %}
+        </figure>
+      </div>
     {% endif %}
   </article>
 
@@ -159,22 +166,34 @@ layout: default
 </div>
 
 <style>
-  article {
+  .book-container {
+    display: flex;
+    flex-direction: column-reverse; /* Mobile: content below image (or above? usually image top) */
+    gap: 20px;
+  }
+
+  /* On mobile, let's keep image on top usually, but user said "text shouldn't be under". 
+     If they mean desktop, side-by-side. 
+     If mobile, usually stack. 
+     Let's do standard stack on mobile (Image top), side-by-side desktop.
+     Wait, if I use column-reverse, content is bottom, image top. 
+     Actually, in HTML I put content first, then figure.
+     So column-reverse would put figure top, content bottom. Correct.
+  */
+
+  .book-content {
     text-align: justify;
+    flex: 1;
   }
 
   figure {
-    float: none;
-    width: auto;
-    display: block;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
+    max-width: 250px;
   }
 
   figure > img {
-    vertical-align: top;
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
@@ -189,30 +208,19 @@ layout: default
   }
 
   @media screen and (min-width: 800px) {
+    .book-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .book-content {
+      /* Ensure content takes available space */
+    }
+
     figure {
-      float: right;
-      margin: 0 0 20px 30px;
-      max-width: 300px;
+      margin: 0 0 0 30px;
+      width: 300px; /* Fixed width for cover column */
+      flex-shrink: 0; /* Don't shrink the image */
     }
-
-    figure img {
-      width: 100%;
-    }
-
-    figure figcaption {
-      text-align: center;
-    }
-    
-    .empty-review {
-      float: right;
-      margin: 0 0 20px 30px;
-    }
-  }
-
-  /* Clearfix for floated elements */
-  article::after {
-    content: "";
-    display: table;
-    clear: both;
   }
 </style>
