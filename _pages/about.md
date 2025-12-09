@@ -50,9 +50,4 @@ My specific interests include:
 * **Deep Reinforcement Learning:** Investigation of sample efficiency, exploration strategies, and model-based RL.
 * **Computer Vision:** Learning useful representations for downstream control tasks (World Models, latent dynamics).
 * **AI for Science:** Applying these general RL & CV advances to physical systems, with a focus on **Physics-Informed Learning** and **Sim-to-Real** transfer for robotics and complex dynamics.
-
-I am actively looking for a **PhD position** starting **Fall 2025** in Switzerland or France.
-
-Previously, I conducted research on stochastic filtering at **MBDA** and statistical modeling at the **University of Valencia**.
-
 </div>

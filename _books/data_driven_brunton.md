@@ -6,7 +6,7 @@ cover: assets/img/book_covers/data_driven_science_engineering.jpg
 status: To Read
 ---
 
-I've been following Steven Brunton for a while on YouTube, and this book is a way for me to dive into Physics-driven ML.
+I've been following [Steven Brunton](https://www.youtube.com/@Eigensteve) for a while on YouTube, and this book is a way for me to dive into Physics-driven ML.
 
 This textbook integrates machine learning, engineering mathematics, and mathematical physics to revolutionize the modeling, prediction, and control of complex systems. It aims to train mathematical scientists and engineers in the intersection of data-driven methods, machine learning, applied optimization, and classical engineering fields.
 
