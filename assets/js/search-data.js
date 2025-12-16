@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Exploring adversarial attacks and defense mechanisms in computer vision.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_cv_defense/";
+            },},{id: "projects-direct-preference-optimization-dpo",
+          title: 'Direct Preference Optimization (DPO)',
+          description: "Aligning Large Language Models with human preferences using DPO.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_dpo/";
             },},{
         id: 'social-cv',
         title: 'CV',
