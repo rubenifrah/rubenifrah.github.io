@@ -5,7 +5,7 @@ description: Aligning Large Language Models with human preferences using DPO.
 img: assets/projects/academic/DPO/DPO.jpg
 importance: 6
 category: academic projects
-tags: [LLM]
+tags: [LLM, research]
 ---
 
 This project explores **Direct Preference Optimization (DPO)** as a stable and efficient alternative to Reinforcement Learning from Human Feedback (RLHF) for aligning Large Language Models (LLMs) with human preferences.
