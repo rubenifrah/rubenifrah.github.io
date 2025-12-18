@@ -16,7 +16,7 @@ nav_order: 4
 
 <hr>
 
-<h2>2019-2021: The School of Resilience (Lycée Saint-Louis)</h2>
+<h2>2019-2021: Preparatory classes (Lycée Saint-Louis)</h2>
 
 <p style="text-align: justify;">
     After graduating from high school with the highest honors (<strong>"Félicitations du Jury"</strong>), my passion for the fundamental laws of physics and mathematics led me to the <em>Classes Préparatoires</em>. I joined the prestigious <strong>Lycée Saint-Louis</strong> in Paris, initially in the PCSI track, before advancing to the <strong>PSI*</strong> (Star Class), joining a cohort of the nation's most promising students.
@@ -38,7 +38,7 @@ nav_order: 4
 
 <br>
 
-<h2>2021-2022: Leadership in the Field</h2>
+<h2>2021-2022: Leadership in the field</h2>
 
 <p style="text-align: justify;">
     Joining École Polytechnique means, first and foremost, becoming an officer. My journey began with total military immersion at the <strong>Saint-Cyr Coëtquidan Military Academy</strong>. Leaving the comfort of the classroom for the mud of the obstacle courses, I learned that intellectual capacity means little without the character to back it up.
@@ -57,14 +57,14 @@ nav_order: 4
     Seeking to push my limits, I chose to perform my active service overseas, joining the <strong>RSMA of Martinique</strong> (Adapted Military Service Regiment).
 </p>
 
-<h3>A Lesson in Humility</h3>
+<h3>A Lesson in resilience</h3>
 
 <p style="text-align: justify;">
     As an <strong>Officer Cadet</strong> and later <strong>Platoon Leader</strong>, I was entrusted with the command of 30 young recruits and the management of seasoned soldiers with over 20 years of experience.
 </p>
 
 <p style="text-align: justify;">
-    At just 20 years old, I faced a stark reality: legitimacy is not granted by rank, but earned through exemplarity. Whether leading a march in the tropical heat or organizing logistics for a training camp, I learned that true leadership is about serving those you command. This operational experience, sharpened by commando training (CNEF), gave me a sense of responsibility that no textbook could provide.
+    At just 21 years old, I faced a stark reality: legitimacy is not granted by rank, but earned through exemplarity. Whether leading a march in the tropical heat or organizing logistics for a training camp, I learned that true leadership is about serving those you command. This operational experience, sharpened by commando training (CNEF), gave me a sense of responsibility that no textbook could provide.
 </p>
 
 <div class="row justify-content-center">
@@ -78,26 +78,26 @@ nav_order: 4
 
 <br>
 
-<h2>2022-2024: The Polytechnic Engineering Cycle</h2>
+<h2>2022-2024: École Polytechnique engineering cycle</h2>
 
 <p style="text-align: justify;">
     Returning to the Palaiseau campus, I embraced the <strong>multidisciplinary excellence</strong> of the "X" curriculum. I refused to specialize too early, choosing instead to explore the full spectrum of science—from <strong>Quantum Physics</strong> and <strong>Relativity</strong> to <strong>Macroeconomics</strong> and <strong>Fluid Mechanics</strong>—while maintaining a rigorous core in Applied Mathematics. This breadth of knowledge has given me a unique ability to connect dots between disparate fields.
 </p>
 
-<h3>Bastille Day 2022: A Symbol of Service</h3>
+<h3>Bastille Day 2022: A once in a lifetime experience</h3>
 
 <p style="text-align: justify;">
     On July 14, 2022, I had the immense honor of marching down the Champs-Élysées under the flag of École Polytechnique. Parading in full <em>Grand Uniforme</em> before the President of the Republic and the nation was more than a ceremonial duty; it was a profound moment of cohesion. Marching in perfect synchronization with my entire class represented the culmination of our military training and a tangible connection to the centuries of history we were inheriting.
 </p>
 
-<h3>Commitment to the Community</h3>
+<h3>Commitment to the community</h3>
 
 <p style="text-align: justify;">
     Life at Polytechnique is deeply communal. I dedicated myself to shaping the student experience:
 </p>
 
 <ul>
-    <li><strong>Bal de l'X:</strong> As <em>Dancer Manager</em>, I helped orchestrate one of France's most prestigious balls at the Opéra Garnier, managing artistic teams and logistics.</li>
+    <li><strong>Bal de l'X:</strong> As <em>Dancer manager</em>, I helped orchestrate one of France's most prestigious balls at the Opéra Garnier, managing artistic teams and logistics.</li>
 </ul>
 
 <div class="row justify-content-center">
@@ -123,10 +123,10 @@ nav_order: 4
     </div>
 </div>
 
-<h3>2023: Training the Next Generation</h3>
+<h3>2023: Training the next generation</h3>
 
 <p style="text-align: justify;">
-    In a rare opportunity, I returned to uniform in 2023 to supervise the Initial Military Training of the incoming X2023 cohort. Resuming my role as Platoon Leader—this time for my future peers—was a complex challenge. It required a subtle balance of authority and mentorship, reinforcing my belief that leadership is, above all, a human endeavor.
+    In a rare opportunity, I returned to uniform in 2023 to supervise the Initial Military Training of the incoming X2023 cohort. Resuming my role as platoon leader—this time for my future peers—was a complex challenge. It required a subtle balance of authority and mentorship, reinforcing my belief that leadership is, above all, a human endeavor.
 </p>
 
 <div class="row justify-content-center">
