@@ -5,6 +5,7 @@ description: Aligning Large Language Models with human preferences using DPO.
 img: assets/projects/academic/DPO/DPO.jpg
 importance: 6
 category: academic projects
+github: https://github.com/rubenifrah/
 tags: [LLM, research]
 ---
 
