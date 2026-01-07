@@ -9,7 +9,13 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
+            <h3 class="card-title">{{ project.title }}
+              {% if project.github %}
+                <a href="{{ project.github }}" title="Code Repository" target="_blank" rel="noopener noreferrer" style="float: right; font-size: 1.2rem; color: #a0a0a0 !important;">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              {% endif %}
+            </h3>
             <p class="card-text">{{ project.description }}</p>
             <div class="card-footer-custom">
               {% if project.tags %}

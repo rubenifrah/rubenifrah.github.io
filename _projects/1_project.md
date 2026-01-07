@@ -37,3 +37,4 @@ The agent observes the environment through ray-casting sensors (Lidar-like) and 
 We tackled challenges such as:
 *   **Training Stability**: Implemented gradient clipping and hyperparameter tuning to stabilize learning.
 *   **Generalization**: Trained on multiple procedurally generated tracks to ensure the agent can adapt to unseen circuits.
+*   **Methods tested**: PPO, DQN, DDQN...
