@@ -437,6 +437,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/rl_sutton_barto/";
+            },},{id: "books-understanding-deep-learning",
+          title: 'Understanding Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/understanding_deep_learning/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
