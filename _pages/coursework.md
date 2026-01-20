@@ -45,7 +45,7 @@ My Master's program **IASD** (AI, Systems, Data) @ **Dauphine-PSL** & **ENS Pari
     * **Focus:** Theoretical understanding of why deep learning works.
     * **Topics:** Neural Tangent Kernel (NTK), the "lazy" limit, double descent phenomena, benign overfitting, random matrix theory.
 
-* **LLM for code and proofs** (Prof. [Marc Lelarge](https://scholar.google.com/citations?hl=en&user=cLGOIdMAAAAJ)) 
+* **LLM for code and proof** (Prof. [Marc Lelarge](https://scholar.google.com/citations?hl=en&user=cLGOIdMAAAAJ)) 
     * **Focus:** Covers recent advances in LLMs
     * **Topics:** Fine-Tuning strategies (LoRA, QLoRA, ...), Scaling laws, Retrieval-augmented generation, Structured generation techniques, Code generation. 
 
