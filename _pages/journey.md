@@ -4,7 +4,7 @@ title: Polytechnique, a human journey
 nav_title: Journey
 permalink: /journey/
 description: 
-nav: true
+nav: false
 nav_order: 4
 ---
 
