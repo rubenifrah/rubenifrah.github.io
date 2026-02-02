@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-polytechnique-a-human-journey",
-          title: "Polytechnique, a human journey",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/journey/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
