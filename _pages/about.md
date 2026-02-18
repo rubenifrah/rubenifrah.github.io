@@ -37,17 +37,18 @@ social: true
 
 <div style="text-align: justify;" markdown="1">
 
-I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine - ENS Ulm - Mines Paris**), and an alumnus of **École Polytechnique** (X21).
+I am a graduate student in the **M2 IASD (Artificial Intelligence, Systems, and Data)** program within the PSL ecosystem (**Dauphine – ENS Ulm – Mines Paris**), and an alumnus of **École Polytechnique** (X21).
 
-My academic background is built on a dual foundation: the mathematical and physical rigor from my engineering training at Polytechnique (specializing in Applied Maths and Statistics), and the theoretical depth of modern Machine Learning from the IASD Master (Theoretical Foundations of Deep Learning, Probabilistic Models, convex and non-convex optimization).
+My academic background combines the mathematical and physical rigor of my engineering training at Polytechnique (Applied Mathematics and Statistics) with the theoretical foundations of modern Machine Learning developed in IASD (learning theory, optimization, probabilistic modeling, and the mathematics of deep learning). I am particularly interested in understanding how structural constraints—geometric, physical, or probabilistic—shape inductive bias and generalization in modern overparameterized models.
 
 ### Research Interests
 
-My research interest focuses mostly on **Deep Reinforcement Learning (RL)** and **Computer Vision**. I am driven by the challenge of building autonomous agents that can perceive complex, high-dimensional environments and make robust decisions.
+My research focuses on the foundations of representation learning and decision-making in structured environments. I am motivated by questions at the intersection of **optimization, uncertainty, and inductive bias**, especially in regimes where classical statistical assumptions break down.
 
 My specific interests include:
 
-* **Deep Reinforcement Learning:** Investigation of sample efficiency, exploration strategies, and model-based RL.
-* **Computer Vision:** Learning useful representations for downstream control tasks (World Models, latent dynamics).
-* **AI for Science:** Applying these general RL & CV advances to physical systems, with a focus on **Physics-Informed Learning** and **Sim-to-Real** transfer for robotics and complex dynamics.
+* **Structured & Geometric Representation Learning:** Understanding when self-supervised objectives exploit meaningful structure and when they induce shortcut solutions or feature collapse.
+* **Uncertainty-Aware and Physics-Informed Learning:** Studying how physical constraints and probabilistic modeling influence robustness, calibration, and generalization in scientific systems.
+* **Deep Reinforcement Learning:** Investigating stability, exploration, and generalization in high-dimensional environments, with a particular interest in how representation learning interacts with control and long-horizon decision-making.
+
 </div>
