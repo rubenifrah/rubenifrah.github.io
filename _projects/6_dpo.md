@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Direct Preference Optimization (DPO)
-description: Aligning Large Language Models with human preferences using DPO.
+description: Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.
 img: assets/projects/academic/DPO/DPO.jpg
 importance: 3
 category: academic projects

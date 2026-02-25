@@ -3,7 +3,7 @@ layout: book-review
 title: "Data-driven Science and Engineering: Machine Learning, Dynamical Systems, and Control"
 author: Steven L. Brunton and J. Nathan Kutz
 cover: assets/img/book_covers/data_driven_science_engineering.jpg
-status: To Read
+status: Reading
 ---
 
 I've been following [Steven Brunton](https://www.youtube.com/@Eigensteve) for a while on YouTube, and this book is a way for me to dive into Physics-driven ML.
