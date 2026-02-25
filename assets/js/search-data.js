@@ -410,6 +410,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/data_driven_brunton/";
+            },},{id: "books-deep-learning-foundations-and-concepts",
+          title: 'Deep Learning: Foundations and Concepts',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning_bishop/";
             },},{id: "books-deep-learning",
           title: 'Deep Learning',
           description: "",
