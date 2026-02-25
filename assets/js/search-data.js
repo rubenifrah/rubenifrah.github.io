@@ -473,7 +473,7 @@ ninja.data = [{
               window.location.href = "/projects/5_cv_defense/";
             },},{id: "projects-direct-preference-optimization-dpo",
           title: 'Direct Preference Optimization (DPO)',
-          description: "Aligning Large Language Models with human preferences using DPO.",
+          description: "Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_dpo/";
             },},{
