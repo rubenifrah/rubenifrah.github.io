@@ -790,6 +790,11 @@ footer.sticky-bottom {
         border-color: #6360c8;
       }
 
+      &.maths {
+        color: #1abc9c;
+        border-color: #1abc9c;
+      }
+
       // Fallback
       &.default {
         color: #95a5a6;

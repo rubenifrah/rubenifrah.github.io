@@ -6,7 +6,7 @@ img: assets/projects/academic/DPO/DPO.jpg
 importance: 3
 category: academic projects
 github: https://github.com/rubenifrah/DPO-implementation-and-finetuning
-tags: [LLM, research]
+tags: [LLM, deep-learning, research]
 ---
 
 This project explores **Direct Preference Optimization (DPO)** as a stable and efficient alternative to Reinforcement Learning from Human Feedback (RLHF) for aligning Large Language Models (LLMs) with human preferences.
