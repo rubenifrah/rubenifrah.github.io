@@ -3,7 +3,7 @@ layout: page
 title: Minimax Estimation of Distances on a Manifold
 description: A computational study of minimax-optimal geodesic distance estimation on smooth manifolds, comparing ISOMAP, TDC, and Offset methods.
 img: assets/projects/minimax/geodesic_path_knot.png
-importance: 7
+importance: 3
 category: academic projects
 github: https://github.com/rubenifrah/minimax-manifold-learning
 tags: [Maths, Research]
