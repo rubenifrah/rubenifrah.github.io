@@ -25,7 +25,7 @@ This work was carried out as a research project for the **Dimension Reduction an
 
 Graph-based geodesic estimates (like ISOMAP) are **not minimax-optimal** in the isometric-to-convex setting. The key issue is *short-circuiting*: when distant regions of a manifold are close in ambient Euclidean space, a discrete graph can create spurious shortcuts that distort estimated distances. This project studies when and why this happens — and what methods can provably do better.
 
-The Tangential Delaunay Complex (TDC) achieves the minimax-optimal `O(ε²)` relative distortion regime by reconstructing the surface before computing geodesics, avoiding the shortcut problem entirely.
+The Tangential Delaunay Complex (TDC) achieves the minimax-optimal $O(ε^2)$ relative distortion regime by reconstructing the surface before computing geodesics, avoiding the shortcut problem entirely.
 
 ## Three Paradigms Compared
 
