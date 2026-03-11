@@ -481,6 +481,11 @@ ninja.data = [{
           description: "Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_dpo/";
+            },},{id: "projects-minimax-estimation-of-distances-on-a-manifold",
+          title: 'Minimax Estimation of Distances on a Manifold',
+          description: "A computational study of minimax-optimal geodesic distance estimation on smooth manifolds, comparing ISOMAP, TDC, and Offset methods.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_minimax/";
             },},{
         id: 'social-cv',
         title: 'CV',
