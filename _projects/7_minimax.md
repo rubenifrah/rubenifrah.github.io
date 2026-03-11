@@ -46,26 +46,17 @@ The manifold is thickened into a continuous ambient volume, and geodesics are ap
 The tubular knot is the most striking illustration of the problem. Different branches of the tube can be close in ambient space, causing ISOMAP to "jump" between branches — while TDC, constrained to the reconstructed 2-manifold surface, stays on the correct branch.
 
 <div class="row justify-content-center">
-  <div class="col-md-8 mt-3">
-    {% include figure.liquid loading="lazy" path="assets/projects/minimax/geodesic_path_knot.gif" title="Knot geodesic comparison" class="img-fluid rounded z-depth-1" %}
+  <div class="col-12 mt-3">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+      <iframe src="/assets/projects/minimax/5_knots_geodesics.html"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+              loading="lazy">
+      </iframe>
+    </div>
   </div>
 </div>
 <div class="caption">
-  ISOMAP vs. TDC vs. Offset geodesics on a tubular knot. Notice how the graph path (ISOMAP) short-circuits across branches, while TDC stays on the correct surface path.
-</div>
-
-### Interactive 3D Visualization
-
-Explore the geodesic paths interactively on 5 different knot geometries — rotate, zoom, and compare ISOMAP vs. TDC directly in your browser:
-
-<div class="row justify-content-center">
-  <div class="col-12 mt-3">
-    <iframe src="/assets/projects/minimax/5_knots_geodesics.html"
-            width="100%" height="650px"
-            style="border: none; border-radius: 8px;"
-            loading="lazy">
-    </iframe>
-  </div>
+  Interactive 3D Visualization of ISOMAP vs. TDC vs. Offset geodesics on a tubular knot. *Notice how the graph path (ISOMAP) short-circuits across branches, while TDC stays on the correct surface path.*
 </div>
 
 ## Key Results
