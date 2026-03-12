@@ -795,6 +795,11 @@ footer.sticky-bottom {
         border-color: #4ba338;
       }
 
+      &.bayesian {
+        color: #7994e5;
+        border-color: #7994e5;
+      }
+
       // Fallback
       &.default {
         color: #95a5a6;

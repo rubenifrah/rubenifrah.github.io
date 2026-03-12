@@ -3,7 +3,7 @@ layout: page
 title: Bayesian Probabilistic Matrix Factorization
 description: A study on Probabilistic Matrix Factorization for recommender systems.
 img: assets/projects/academic/project1_pic.png
-importance: 6
+importance: 7
 category: academic projects
 github: https://github.com/rubenifrah/Bayesian-Probabilistic-Matrix-Factorization
 tags: [Variational Models]
