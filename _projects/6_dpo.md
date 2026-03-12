@@ -2,7 +2,7 @@
 layout: page
 title: Direct Preference Optimization (DPO)
 description: Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.
-img: assets/projects/academic/DPO/DPO.jpg
+img: assets/projects/academic/DPO/DPO.png
 importance: 3
 category: academic projects
 github: https://github.com/rubenifrah/DPO-implementation-and-finetuning
