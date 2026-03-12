@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Bayesian Physics-Informed Neural Networks (B-PINNs)"
+title: "Bayesian Physics-Informed Neural Networks"
 description: From-scratch implementation of Bayesian PINNs with HMC sampling for uncertainty quantification in PDE solving.
 img: assets/projects/BPINNs/cover-pic.png
-importance: 4
+importance: 3
 category: academic projects
 github: https://github.com/rubenifrah/B-PINNs
 tags: [Bayesian, deep-learning, Research]
