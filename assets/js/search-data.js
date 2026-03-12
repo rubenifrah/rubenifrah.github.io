@@ -486,6 +486,11 @@ ninja.data = [{
           description: "A computational study of minimax-optimal geodesic distance estimation on smooth manifolds, comparing ISOMAP, TDC, and Offset methods.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_minimax/";
+            },},{id: "projects-bayesian-physics-informed-neural-networks-b-pinns",
+          title: 'Bayesian Physics-Informed Neural Networks (B-PINNs)',
+          description: "From-scratch implementation of Bayesian PINNs with HMC sampling for uncertainty quantification in PDE solving.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_bpinns/";
             },},{
         id: 'social-cv',
         title: 'CV',
