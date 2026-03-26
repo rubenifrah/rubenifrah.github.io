@@ -7,7 +7,7 @@ importance: 2
 category: personal projects
 github: https://github.com/rubenifrah/spotify-recommender
 giscus_comments: true
-tags: [Data, deep-learning]
+tags: [Data, deep learning]
 ---
 
 A complete, modular, production‑grade pipeline that learns **your personal musical taste** using a large Kaggle Spotify dataset and your own liked songs exported from Spotify.
