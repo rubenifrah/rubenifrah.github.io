@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SONATA $\:$ Robust point cloud SSL, or is it? 
+title: SONATA - Robust point cloud SSL, or is it?
 description: An empirical evaluation of the geometric shortcut in 3D self-supervised learning, analyzing dense point representations of the Sonata architecture.
 img: assets/projects/sonata/sonata_picture.png
 importance: 3
