@@ -492,7 +492,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_bpinns/";
             },},{id: "projects-sonata-robust-point-cloud-ssl-or-is-it",
-          title: 'SONATA $\:$ Robust point cloud SSL, or is it?',
+          title: 'SONATA - Robust point cloud SSL, or is it?',
           description: "An empirical evaluation of the geometric shortcut in 3D self-supervised learning, analyzing dense point representations of the Sonata architecture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_SONATA/";
