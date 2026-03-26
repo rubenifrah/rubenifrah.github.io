@@ -491,6 +491,11 @@ ninja.data = [{
           description: "From-scratch implementation of Bayesian PINNs with HMC sampling for uncertainty quantification in PDE solving.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_bpinns/";
+            },},{id: "projects-reproducibility-and-critical-analysis-of-sonata",
+          title: 'Reproducibility and Critical Analysis of SONATA',
+          description: "An empirical evaluation of the geometric shortcut in 3D self-supervised learning, analyzing dense point representations of the Sonata architecture.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_SONATA/";
             },},{
         id: 'social-cv',
         title: 'CV',
