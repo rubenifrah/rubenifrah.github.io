@@ -6,7 +6,7 @@ img: assets/projects/sonata/sonata_picture.png
 importance: 3
 category: academic projects
 github: https://github.com/rubenifrah/SONATA-project
-tags: [Computer Vision, deep learning]
+tags: [Computer Vision, deep learning, point clouds]
 ---
 
 This project is a reproducibility study and critical analysis of the CVPR 2025 paper *Sonata: Self-Supervised Learning of Reliable Point Representations*. It addresses a fundamental issue in 3D computer vision:
