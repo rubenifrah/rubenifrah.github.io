@@ -7,6 +7,7 @@ importance: 7
 category: academic projects
 github: https://github.com/rubenifrah/Bayesian-Probabilistic-Matrix-Factorization
 tags: [Variational Models]
+visible: false
 ---
 
 This project explores **Probabilistic Matrix Factorization (PMF)**, a scalable probabilistic model for collaborative filtering. The goal is to predict user preferences for items (e.g., movies, products) based on sparse historical data.
