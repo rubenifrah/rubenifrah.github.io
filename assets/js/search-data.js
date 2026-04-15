@@ -461,16 +461,6 @@ ninja.data = [{
           description: "A personalized music taste modeling pipeline using XGBoost and Spotify API.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-mnist-generative-via-vae",
-          title: 'MNIST Generative via VAE',
-          description: "Generating handwritten digits using Variational Autoencoders.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_mnist_vae/";
-            },},{id: "projects-computer-vision-as-a-defense",
-          title: 'Computer Vision as a Defense',
-          description: "Exploring adversarial attacks and defense mechanisms in computer vision.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_cv_defense/";
             },},{id: "projects-direct-preference-optimization-dpo",
           title: 'Direct Preference Optimization (DPO)',
           description: "Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.",
@@ -491,11 +481,6 @@ ninja.data = [{
           description: "An empirical evaluation of the geometric shortcut in 3D self-supervised learning, analyzing dense point representations of the Sonata architecture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_SONATA/";
-            },},{id: "projects-bayesian-probabilistic-matrix-factorization",
-          title: 'Bayesian Probabilistic Matrix Factorization',
-          description: "A study on Probabilistic Matrix Factorization for recommender systems.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/legacy/3_matrix_factorisation/";
             },},{
         id: 'social-cv',
         title: 'CV',
