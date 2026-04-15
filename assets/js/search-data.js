@@ -461,11 +461,6 @@ ninja.data = [{
           description: "A personalized music taste modeling pipeline using XGBoost and Spotify API.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-bayesian-probabilistic-matrix-factorization",
-          title: 'Bayesian Probabilistic Matrix Factorization',
-          description: "A study on Probabilistic Matrix Factorization for recommender systems.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_matrix_factorisation/";
             },},{id: "projects-mnist-generative-via-vae",
           title: 'MNIST Generative via VAE',
           description: "Generating handwritten digits using Variational Autoencoders.",
@@ -496,6 +491,11 @@ ninja.data = [{
           description: "An empirical evaluation of the geometric shortcut in 3D self-supervised learning, analyzing dense point representations of the Sonata architecture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_SONATA/";
+            },},{id: "projects-bayesian-probabilistic-matrix-factorization",
+          title: 'Bayesian Probabilistic Matrix Factorization',
+          description: "A study on Probabilistic Matrix Factorization for recommender systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/legacy/3_matrix_factorisation/";
             },},{
         id: 'social-cv',
         title: 'CV',
