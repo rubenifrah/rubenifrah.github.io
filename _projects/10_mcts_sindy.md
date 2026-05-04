@@ -2,7 +2,7 @@
 layout: page
 title: MCTS for Equation Discovery
 description: A hybrid architecture combining MCTS and SINDy for physical equation discovery.
-img: /assets/img/mcts_sindy_cover.jpg
+img: assets/projects/MCTS-SINDy/MCTS_pp.jpeg
 importance: 1
 category: academic projects
 github: https://github.com/gabriellafrds/MCTS_Equation_Discovery
