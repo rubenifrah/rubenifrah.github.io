@@ -7,7 +7,7 @@ importance: 1
 category: academic projects
 github: https://github.com/gabriellafrds/MCTS_Equation_Discovery
 giscus_comments: true
-tags: [RL, Variational Models, Physics]
+tags: [RL, Research]
 ---
 
 Discovering governing physical equations from noisy trajectory data is a famously difficult combinatorial problem. This project explores a novel hybrid architecture for symbolic regression by combining the search capabilities of **Monte Carlo Tree Search (MCTS)** with the robust mathematical guarantees of **Sparse Identification of Nonlinear Dynamical Systems (SINDy)**.
