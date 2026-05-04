@@ -451,7 +451,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-deep-rl-f1-racing",
+          section: "News",},{id: "projects-mcts-for-equation-discovery",
+          title: 'MCTS for Equation Discovery',
+          description: "A hybrid architecture combining MCTS and SINDy for physical equation discovery.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_mcts_sindy/";
+            },},{id: "projects-deep-rl-f1-racing",
           title: 'Deep RL F1 Racing',
           description: "Autonomous F1 racing agent using PPO and DQN",
           section: "Projects",handler: () => {
@@ -461,6 +466,11 @@ ninja.data = [{
           description: "A personalized music taste modeling pipeline using XGBoost and Spotify API.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-computer-vision-as-a-defense",
+          title: 'Computer Vision as a Defense',
+          description: "Exploring adversarial attacks and defense mechanisms in computer vision.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_cv_defense/";
             },},{id: "projects-direct-preference-optimization-dpo",
           title: 'Direct Preference Optimization (DPO)',
           description: "Implemented and analyzed Direct Preference Optimization on the Anthropic-HH dataset, studying sensitivity to KL temperature and observing reward collapse regimes.",
